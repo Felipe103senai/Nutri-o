@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+.retangulo {
+    position: absolute;
+    width: 103%;
+    height: 2%;
+    left: -3%;
+    top: 13%;
+
+    background: #B2ECD0;
+}
+
+.escuro {
+    position: absolute;
+    width: 103%;
+    height: 84px;
+    left: -3%;
+    top: 114px;
+
+    background: #00BF63;
+
+}
+
+.Logo img {
+    position: absolute;
+    width: 25.5%;
+    height: 25.5%;
+    left: 0.5%;
+    top: 1.6%;
+
+    background: url(-love-text-heart-removebg-preview.png);
+
+}
+
+.BDHOME2 {
+    Position: absolute;
+    width: 12%;
+    height: 7.5%;
+    left: 16%;
+    top: 16.9%;
+    box-shadow: 0px 10px 35px black ;
+
+    background: rgba(65, 76, 80, 0.4);
+    border-radius: 41px;
+
+}
+
+.BDHOME3 {
+    Position: absolute;
+    width: 12%;
+    height: 7.5%;
+    left: 30%;
+    top: 16.9%;
+    box-shadow: 0px 10px 35px black;
+
+    background: rgba(65, 76, 80, 0.4);
+    border-radius: 41px;
+
+}
+
+.pngpaciente img {
+    position: absolute;
+    width: 3%;
+    height: 6%;
+    left: 95%;
+    top: 17.5%;
+
+    background: url(image);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background:white;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+main {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: #8880FE;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+main.social-media {
+    display: flex;
+    align-content: center;
+}
+
+main .social-media a {
+    text-decoration: none;
+}
+
+main .social-media img {
+    width: 36px;
+    margin-left: 3rem;
+}
+
+main .social-media a:first-child img {
+    margin-left: 0;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label {
+    display: flex;
+    flex-direction:column;
+    color: gray;
+}
+
+main form label span {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+main form input {
+    background:rgb(118, 109, 109);
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: rgba(166, 166, 166);
+    font-size: 1rem;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+main form input[type="submit"] {
+    cursor: pointer;
+    width: 40%;
+    margin-top: 5%;
+    border: none;
+    border-radius: 32px;
+    background:green;
+    color: black;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+
+main form input[type="submit"]:hover {
+    background: #5952d4;
+}
+
+section.images {
+    width: 50vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 4rem;
+}
+
+section.images img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+    section.images img {
+        width: 110%;
+    }
+
+    section.images .circle {
+        clip-path: circle(35% at right 80%);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    section.images {
+        display: none;
+        visibility: hidden;
+    }
+
+    main {
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    main h1 {
+        font-size: 2rem;
+    }
+
+    main .alternative span {
+        font-size: 0.8rem;
+    }
+
+    main form label span, main form input[type="submit"] {
+        font-size: 1rem;
+    }
+
+}
+.buceta {
+    position: absolute;
+width: 110%;
+height: 100%;
+left: 0%;
+top: 30%;
+}
+.Botao{
+    color: #00BF63;
+
+}
+.home h1{
+    position:absolute;
+width: 120px;
+height: 90px;
+left: 274px;
+top: 147px;
+
+font-family: '?????';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+
+.Home2 h1{
+    position: absolute;
+    width: 146px;
+    height: 36px;
+    left: 468px;
+    top: 147px;
+    
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    
+    color: white;
+}
